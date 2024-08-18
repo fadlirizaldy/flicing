@@ -11,7 +11,9 @@ const Container = ({
 }) => {
   return (
     <div className={className}>
-      <div className={`mx-auto max-w-[${maxWidth ?? "1240"}px]`}>{children}</div>
+      <div className={`mx-auto max-w-[${maxWidth ?? "1240"}px]`}>
+        {children}
+      </div>
     </div>
   );
 };
